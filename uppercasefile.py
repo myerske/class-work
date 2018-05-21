@@ -1,0 +1,5 @@
+fhand = open('mbox-short.txt')
+inp = fhand.read()
+print('Number of Characters:', len(inp))
+result = (inp[:94626])
+print(result.upper())
